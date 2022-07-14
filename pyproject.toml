@@ -6,6 +6,9 @@ authors = ["ovsds <ovsds@yandex-team.ru>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+websockets = "^10.3"
+pydantic = "^1.9.1"
+aioconsole = "^0.5.0"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "^2.19.0"
